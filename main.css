@@ -1,0 +1,89 @@
+html {
+    font-size: 20px;
+}
+
+.head {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.host, .user {
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.view_file_name {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.files_tree, .view_file_content {
+    border: 1px dotted black;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+    width: 800px;
+}
+
+.it_folder {
+    font-weight: bold;
+    user-select: none;
+}
+
+.it_folder:hover, .file_name:hover {
+    text-decoration: underline;
+}
+
+.file:hover {
+    cursor: pointer;
+    background: rgba(202, 255, 255, 1);
+}
+
+.pwd {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pwd > button {
+    margin-right: 10px;
+}
+
+.pwd > div {
+    width: 100%;
+    color: gray;
+    overflow-x: auto;
+    padding: 5px;
+    background-color: rgb(172, 198, 224);
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+.file_size {
+    margin-left: auto;
+}
+
+.file > input {
+    margin-right: 15px;
+}
+
+.file > img {
+    margin-right: 5px;
+}
